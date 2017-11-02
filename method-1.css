@@ -1,0 +1,58 @@
+#yinyang{
+    width:200px;
+    height:200px;
+    border:2px solid red;
+    border-radius:50%;
+    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 50%,#F72746 50%,#F72746 100%);
+    position: relative;/*相对定位*/
+  }
+  #yinyang > .one{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background: #F72746;
+    position:absolute;/*绝对定位*/
+    top:50px;
+    left:0px;
+  }
+  
+  #yinyang > .one > .little{
+    border:1px solid red;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #fff;
+    position:absolute;/*绝对定位*/
+    top:45px;
+    left:45px;
+  }
+  
+  
+  #yinyang > .two{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background: #fff;
+    position:absolute;/*绝对定位*/
+    top:50px;
+    left:100px;
+  }
+  
+  #yinyang > .two > .little{
+    border:1px solid red;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: #F72746;
+    position:absolute;/*绝对定位*/
+    top:45px;
+    left:45px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
